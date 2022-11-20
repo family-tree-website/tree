@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="img/logo.png">
+    <link rel="stylesheet" href="css/keyframes.css">
+    <link rel="stylesheet" href="css/popup.css">
+    <link rel="stylesheet" href="css/family.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Моя Родословная</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header menu noselect">
+            <div class="header__logo"><img src="img/logo.png" alt="Логотип"></div>
+            <div class="header__title">Моя родословная</div>
+
+            <div class="menu__burger-container">
+                <div></div>
+                <div class="menu__burger">
+                    <span></span>
+                </div>
+            </div>
+
+            <nav class="menu__body">
+                <ul class="menu__list">
+                    <li><a data-goto=".first" href="#" class="menu__link header__link">О родословной</a></li>
+                    <li><a data-goto=".tree" href="#" class="menu__link header__link">Древо</a></li>
+                    <li><a href="tat.html" class="menu__list-lang"><img src="img/tat.svg" alt="Тат" title="Татарская версия"></a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main class="main">
+            <div class="main__block block first">
+                <div class="block__title"><i class="fa-solid fa-circle-question"></i> Что такое родословная?</div>
+                <div class="block__text">&nbsp;&nbsp;&nbsp;&nbsp;➤ Согласно <a href="https://ru.wikipedia.org/wiki/Родословная" class="main__block-link" target="blank">популярному интернет-источнику</a>, <u>родословная</u> - это свод данных, описывающих происхождение тех или иных семей от других семей.</div>
+            </div>
+            <div class="main__block block">
+                <div class="block__title"><i class="fa-solid fa-circle-question"></i> Зачем нужна родословная?</div>
+                <div class="block__text">
+                    <ul class="block__text-list">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="main__block block">
+                <div class="block__title"><i class="fa-solid fa-tree"></i> Генеалогическое древо моей семьи</div>
+                <div class="block__tree tree">
+                    <div class="block__subtitle">Родословная Хабибуллиных:</div>
+                    <div class="block__subtitle subtitle noselect">по линии отца</div>
+                    <div class="tree__container">
+                        <a href="#grmother" id="grmother-item" class="item__link popup-link">
+                            <div class="tree__item">
+                                <div class="item__text"><div></div>Бабушка</div>
+                            </div>
+                        </a>
+                        <a href="#grfather" id="grfather-item" class="item__link popup-link">
+                            <div class="tree__item">
+                                <div class="item__text"><div></div>Дедушка</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="tree__children-lines-container">
+                        <canvas class="" id="canvas-grparents"></canvas>
+                    </div>
+                    <a href="#father" id="father-item" class="item__link popup-link">
+                        <div class="tree__item">
+                            <div class="item__text"><div></div>Отец</div>
+                        </div>
+                    </a>
+                    <div class="tree__children-lines-container">
+                        <canvas class="" id="canvas-children"></canvas>
+                    </div>
+                    <div class="tree__container">
+                        <a href="#me" id="me-item" class="item__link popup-link">
+                            <div class="tree__item">
+                                <div class="item__text"><div></div>Я</div>
+                            </div>
+                        </a>
+                        <a href="#hbro1" id="hbro1-item" class="item__link popup-link">
+                            <div class="tree__item">
+                                <div class="item__text"><div></div>Брат</div>
+                            </div>
+                        </a>
+                        <a href="#hbro2" id="hbro2-item" class="item__link popup-link">
+                            <div class="tree__item">
+                                <div class="item__text"><div></div>Младший брат</div>
+                            </div>
+                        </a>
+                        <a href="#hsis" id="hsis-item" class="item__link popup-link">
+                            <div class="tree__item">
+                                <div class="item__text"><div></div>Младшая сестра</div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            
+        </footer>
+        <script src="https://kit.fontawesome.com/6c0ad7ea8a.js" crossorigin="anonymous"></script>
+        <script src="js/script.js"></script>
+    </div>
+
+    <div class="popups">
+        <div id="me" class="popup">
+            <div class="popup__body">
+                <a href="#me-item" class="popup__area"></a>
+                <div class="popup__content">
+                  <div class="popup__title">Хабибуллин Нурбек Искандерович</div>
+                  <div class="popup__subtitle noselect">16.10.2006</div>
+                  <div class="popup__text"></div>
+                  <div class="popup__img"><img src="img/family/01.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+        <div id="father" class="popup">
+            <div class="popup__body">
+                <a href="#me-item" class="popup__area"></a>
+                <div class="popup__content">
+                  <div class="popup__title">Хабибуллин Искандер Рафисович</div>
+                  <div class="popup__subtitle noselect">22.03.1986</div>
+                  <div class="popup__text"></div>
+                  <div class="popup__img"><img src="img/family/02.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+        <div id="hbro1" class="popup">
+            <div class="popup__body">
+                <a href="#me-item" class="popup__area"></a>
+                <div class="popup__content">
+                  <div class="popup__title">Хабибуллин Эрик Искандерович</div>
+                  <div class="popup__subtitle noselect">26.07.2007</div>
+                  <div class="popup__text"></div>
+                  <div class="popup__img"><img src="img/family/04.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+        <div id="hbro2" class="popup">
+            <div class="popup__body">
+                <a href="#me-item" class="popup__area"></a>
+                <div class="popup__content">
+                  <div class="popup__title">Хабибуллин Чингиз Искандерович</div>
+                  <div class="popup__subtitle noselect">9.01.2014</div>
+                  <div class="popup__text"></div>
+                  <div class="popup__img"><img src="img/family/05.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+        <div id="hsis" class="popup">
+            <div class="popup__body">
+                <a href="#me-item" class="popup__area"></a>
+                <div class="popup__content">
+                  <div class="popup__title">Хабибуллина Мерида Искандеровна</div>
+                  <div class="popup__subtitle noselect">30.09.2018</div>
+                  <div class="popup__text"></div>
+                  <div class="popup__img"><img src="img/family/06.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+        <div id="grmother" class="popup">
+            <div class="popup__body">
+                <a href="#me-item" class="popup__area"></a>
+                <div class="popup__content">
+                  <div class="popup__title">Хабибуллина Алия Нуховна</div>
+                  <div class="popup__subtitle noselect">..19.. - ..19..</div>
+                  <div class="popup__text"></div>
+                  <div class="popup__img"><img src="img/family/07.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+        <div id="grfather" class="popup">
+            <div class="popup__body">
+                <a href="#me-item" class="popup__area"></a>
+                <div class="popup__content">
+                  <div class="popup__title">Хабибуллин Рафис Мударрисович</div>
+                  <div class="popup__subtitle noselect">..19..</div>
+                  <div class="popup__text"></div>
+                  <div class="popup__img"><img src="img/family/08.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
