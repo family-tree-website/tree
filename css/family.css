@@ -1,0 +1,54 @@
+* {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#me-item {
+  background-image: url("../img/family/01.png");
+  font-size: 30px;
+  -webkit-animation: item_male 10s linear infinite;
+          animation: item_male 10s linear infinite;
+}
+
+#father-item {
+  background-image: url("../img/family/02.png");
+  font-size: 25px;
+  -webkit-animation: item_male 10s linear infinite;
+          animation: item_male 10s linear infinite;
+}
+
+#hbro1-item {
+  background-image: url("../img/family/04.png");
+  font-size: 25px;
+  -webkit-animation: item_male 10s linear infinite;
+          animation: item_male 10s linear infinite;
+}
+
+#hbro2-item {
+  background-image: url("../img/family/05.png");
+  font-size: 20px;
+  -webkit-animation: item_male 10s linear infinite;
+          animation: item_male 10s linear infinite;
+}
+
+#hsis-item {
+  background-image: url("../img/family/06.png");
+  font-size: 20px;
+  -webkit-animation: item_female 10s linear infinite;
+          animation: item_female 10s linear infinite;
+}
+
+#grmother-item {
+  background-image: url("../img/family/07.png");
+  font-size: 23px;
+  -webkit-animation: item_female 10s linear infinite;
+          animation: item_female 10s linear infinite;
+}
+
+#grfather-item {
+  background-image: url("../img/family/08.png");
+  font-size: 23px;
+  -webkit-animation: item_male 10s linear infinite;
+          animation: item_male 10s linear infinite;
+}

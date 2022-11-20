@@ -1,0 +1,124 @@
+@-webkit-keyframes logo {
+  0% {
+    box-shadow: 0px 0px 20px #70BBEF;
+    border: 3px solid #70BBEF;
+  }
+  33% {
+    box-shadow: 0px 0px 40px #D83D3D;
+    border: 3px solid #D83D3D;
+  }
+  66% {
+    box-shadow: 0px 0px 40px #7EBC7E;
+    border: 3px solid #7EBC7E;
+  }
+  100% {
+    box-shadow: 0px 0px 20px #70BBEF;
+    border: 3px solid #70BBEF;
+  }
+}
+@keyframes logo {
+  0% {
+    box-shadow: 0px 0px 20px #70BBEF;
+    border: 3px solid #70BBEF;
+  }
+  33% {
+    box-shadow: 0px 0px 40px #D83D3D;
+    border: 3px solid #D83D3D;
+  }
+  66% {
+    box-shadow: 0px 0px 40px #7EBC7E;
+    border: 3px solid #7EBC7E;
+  }
+  100% {
+    box-shadow: 0px 0px 20px #70BBEF;
+    border: 3px solid #70BBEF;
+  }
+}
+@-webkit-keyframes item_male {
+  0% {
+    box-shadow: 0px 0px 10px #70BBEF;
+    border: 3px solid #70BBEF;
+  }
+  25% {
+    box-shadow: 0px 0px 20px #0074c7;
+    border: 3px solid #0074c7;
+  }
+  50% {
+    box-shadow: 0px 0px 25px #002ba0;
+    border: 3px solid #002ba0;
+  }
+  75% {
+    box-shadow: 0px 0px 20px #0074c7;
+    border: 3px solid #0074c7;
+  }
+  100% {
+    box-shadow: 0px 0px 10px #70BBEF;
+    border: 3px solid #70BBEF;
+  }
+}
+@keyframes item_male {
+  0% {
+    box-shadow: 0px 0px 10px #70BBEF;
+    border: 3px solid #70BBEF;
+  }
+  25% {
+    box-shadow: 0px 0px 20px #0074c7;
+    border: 3px solid #0074c7;
+  }
+  50% {
+    box-shadow: 0px 0px 25px #002ba0;
+    border: 3px solid #002ba0;
+  }
+  75% {
+    box-shadow: 0px 0px 20px #0074c7;
+    border: 3px solid #0074c7;
+  }
+  100% {
+    box-shadow: 0px 0px 10px #70BBEF;
+    border: 3px solid #70BBEF;
+  }
+}
+@-webkit-keyframes item_female {
+  0% {
+    box-shadow: 0px 0px 10px #ff7171;
+    border: 3px solid #ff7171;
+  }
+  25% {
+    box-shadow: 0px 0px 20px #f04141;
+    border: 3px solid #f04141;
+  }
+  50% {
+    box-shadow: 0px 0px 25px #d20000;
+    border: 3px solid #d20000;
+  }
+  75% {
+    box-shadow: 0px 0px 20px #f04141;
+    border: 3px solid #f04141;
+  }
+  100% {
+    box-shadow: 0px 0px 10px #ff7171;
+    border: 3px solid #ff7171;
+  }
+}
+@keyframes item_female {
+  0% {
+    box-shadow: 0px 0px 10px #ff7171;
+    border: 3px solid #ff7171;
+  }
+  25% {
+    box-shadow: 0px 0px 20px #f04141;
+    border: 3px solid #f04141;
+  }
+  50% {
+    box-shadow: 0px 0px 25px #d20000;
+    border: 3px solid #d20000;
+  }
+  75% {
+    box-shadow: 0px 0px 20px #f04141;
+    border: 3px solid #f04141;
+  }
+  100% {
+    box-shadow: 0px 0px 10px #ff7171;
+    border: 3px solid #ff7171;
+  }
+}
